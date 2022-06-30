@@ -1,0 +1,92 @@
+What is HTML?
+
+
+    1. HTML stands for Hyper Text Markup Language.
+
+    2. It is the standard markup language for creating Web Pages.
+
+    3. HTML describes the structure of a web page. It is a series of elements.
+
+    4. HTML tells the browser how to display the content.
+
+    A SAMPLE HTML IS SHOWN BELOW
+
+        <!DOCTYPE html>
+            <html>
+                <head>
+                    <title>Page Title</title>
+                </head>
+                <body>
+
+                    <h1>My First Heading</h1>
+                    <p>My first paragraph.</p>
+
+                </body>
+            </html>
+
+    !DOCTYPE html : decleration that defines this is a HTML-5 document. Declaration
+    that represents the document type, helps browser display web pages correctly.
+
+    <html> : This is the root element of the web page.
+    <head> : This element contains meta data about the HTML Page
+    <title> : Specifies the title for the web page.
+    <body> : Defines the document's body, is a container for all visible content.
+
+
+
+What are HTML Elements?
+
+
+    Any element like header tags(h1, h2, ....), paragraph tags, anything with a starting 
+    tag some content and an ending tag can be called as an HTML element.
+
+
+
+What are HTML Attributes?
+
+
+    HTML attributes is used for providing some additional information to HTML elements.
+    Attributes usually come in a name-value pattern. Eg: <a> tag has href property for 
+    adding information about the link it has to go to.
+
+    Another example is the <img> tag with attributes like src, width, height.
+
+
+
+
+HTML Headings - h1, h2, h3, h4, h5, h6
+HTML horizontal Lines - <hr><hr />
+HTML Line Breaks - <br />
+
+Preformatted Text : Formats text with font, indent etc..
+
+
+
+HTML Formatting
+
+
+    Bold text, Strong Text, Italic Text, <em> Emphasized text .....
+
+    b or i means you want the text to be rendered as bold or italics. 
+    strong or em means you want the text to be rendered in a way 
+    that the user understands as "important".
+
+
+
+HTML Quotations & Citations
+HTML Comments - <!-- Comments -->
+HTML Links : href attribute to give the link, target attribute.
+Change Link Colors : link, visited, hover, active.
+
+HTML Images - src attribute, alt(specifies an alternate text for an image), width,
+height, background image can be given as CSS. background-repeat, background-attachment,
+background-size.
+
+picture element - To show images in different sets.
+
+
+
+
+HTML Tables
+
+
