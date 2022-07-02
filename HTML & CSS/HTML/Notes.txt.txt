@@ -89,4 +89,107 @@ picture element - To show images in different sets.
 
 HTML Tables
 
+HTML Lists
+        1. Unordered List.
+        2. Ordered List.
+        3. Description List.
+
+
+HTML Block & Inline
+
+    A block level elements always starts on a new line, and the browsers automatically
+    add some space like a margin before and after the element. A block level element
+    always takes up full width. Eg: <p> tag, form tag etc...
+
+    Inline elements does not begin on a new line. An inline element only takes up as
+    much width as necessary. Eg: <a> tag, <button> tag, <input> tag.
+
+    <div> is a block level container, <span> is an inline level container.
+
+
+
+
+HTML class attribute
+
+    The class attribute is often used to point to a class name in the style sheet. It
+    can also be used by a Javascript file to access and manipulate elements with a specific
+    class name.
+
+
+
+HTML id attribute
+
+    HTML id attribute is used to specify a unique id for an HTML element. You cannot have
+    more than one element with the same id in an HTML document.
+
+
+Difference between class and id in HTML document
+
+    The same class can be used over and over again across the same HTML document, but
+    a particular id can only be used once in an HTML document.
+
+
+
+HTML Iframes
+
+    This is used to display a web page within a web page. The src attribute allows
+    us to provide the url of the page to embed. Then there is the title, width, height
+    attributes.
+
+
+
+HTML Javascript
+
+    Javascript makes web pages dynamic and more interactive. <script> tag is used to 
+    define client side javascript. Common uses of javascript includes image manipulation,
+    form validation, dynamic changes of content.
+
+    <noscript> tag : Defines an alternate content for users that do not support client-side
+    scripts.
+
+
+
+HTML head element
+
+    The HTML <head> element is a container for the following elements: <title>, <style>,
+    <meta>, <link>, <script>, <base>. This container is to keep the metadata related to the
+    HTML document which is not going to be displayed.
+
+    <title> tag defines the title for the document
+    <style> tag is to provide styles to the document
+
+    <link> tag defines the relationship between the current document and an external
+    resource. Eg: <link rel="stylesheet" href="styles.css">
+
+    <meta> element is typically used to specify character set, page description, keywords,
+    author of the document, and viewport settings.
+
+    <script> element is used to provide client side javascript.
+
+
+
+HTML Layout
+
+    Picture of HTML page layout have been added to the images folder.
+
+    HTML layout techniques are CSS framework, CSS float property, CSS flexbox, CSS grid.
+    Dive in depth about these.
+
+
+HTML media queries to fit sizes of different screens.
+
+
+HTML Semantics
+
+    A semantic element clearly describes it's meaning to the browser and the developer.
+    Examples of non-semantic elements like div shows no details about it's content.
+    Semantic elements like table, form shows details about it's content.
+
+    
+
+
+
+
+
+
 
